@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML - Tugas 22
+    </title>
+</head>
+<body>
+    <form action="">
+    <fieldset style="width:device-width">
+        <legend>Form</legend>
+        <table>
+            <tr>
+            <td><label for="name">Name : </label></td>
+            <td> <input type="text" name="name" id="name" placeholder="Nama lengkap..."></td>
+        </tr>
+        <tr>
+            <td><label for="username">Username : </label></td>
+            <td><input type="text" name="username" id="username" placeholder="Username..."></td>
+        </tr>
+        <tr>
+            <td><label for="email">Email : </label></td>
+            <td><input type="email" name="email" id="email" placeholder="Your email..."></td>
+        </tr>
+        <tr>
+            <td><label for="pass">Password : </label></td>
+            <td><input type="password" name="pass" id="pass" placeholder="Password..."> </td>
+        </tr>
+        <tr>
+            <td> <label for="website">Alamat Web : </label></td>
+            <td><input type="url" name="website" id="website" placeholder="Masukan URL Web"></td>
+        </tr>
+        <tr>
+            <td><label for="datebirth">Tanggal Lahir : </label></td>
+            <td><input type="date" id="datebirth"></td>
+        </tr>
+        <tr>
+            <td><label for="age">Umur</label></td>
+            <td><input type="number" name="age" id="age" min="5" max="40"></td>
+        </tr>
+        <tr>
+            <td><label for="">Jenis Kelamin : </label></td>
+            <td>
+                <input type="radio" id="male" name="" value="Laki-laki">
+                <label for="male">Laki-laki</label>
+                <input type="radio" id="female" name="" value="Perempuan">
+                <label for="female">Perempuan</label>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="religion">Agama : </label></td>
+            <td><select name="religion" id="religion">
+           <option value="islam">Islam</option>
+           <option value="protestant">Protestan</option>
+           <option value="catholic">Katholik</option>
+           <option value="hindu">Hindu</option>
+           <option value="buddha">Buddha</option>
+         </select></td>
+        </tr>
+        <tr>
+            <td><label for="bio">Biografi</label></td>
+            <td><textarea name="bio" id="bio" cols="20" rows="3" maxlength="300"></textarea></td>
+        </tr>
+        <tr>
+            <td><label for="pic">Foto</label></td>
+            <td><img src="assets/image/logo1.jpg" alt="Logo" width="150px"></td>
+        </tr>
+        <tr>
+            <td><label for="audio">Audio</label></td>
+            <td><audio src="assets/audio/sample.mp3" controls autoplay></audio></td>
+        </tr>
+        </table>
+    </fieldset>
+    </form>
+   
+</body>
+</html>
